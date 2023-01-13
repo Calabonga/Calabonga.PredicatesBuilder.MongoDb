@@ -71,7 +71,7 @@ namespace Calabonga.PredicatesBuilder.MongoDb
         {
             switch (methodCallExpression.Method.Name)
             {
-                case "Invoke" when methodCallExpression.Method.DeclaringType == typeof(Extensions):
+                case "Invoke" when methodCallExpression.Method.DeclaringType == typeof(QueryableExtensions):
                     {
                         var target = methodCallExpression.Arguments[0];
                         if (target is MemberExpression expression)
@@ -116,7 +116,7 @@ namespace Calabonga.PredicatesBuilder.MongoDb
                         break;
                     }
 
-                case "AsExpandable" when methodCallExpression.Method.DeclaringType == typeof(Extensions):
+                case "AsExpandable" when methodCallExpression.Method.DeclaringType == typeof(QueryableExtensions):
                     return methodCallExpression.Arguments[0];
             }
 

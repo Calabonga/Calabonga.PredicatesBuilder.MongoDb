@@ -6,7 +6,7 @@ namespace Calabonga.PredicatesBuilder.MongoDb
     /// Refer to http://www.albahari.com/nutshell/linqkit.html and
     /// http://tomasp.net/blog/linq-expand.aspx for more information.
     /// </summary>
-    public static class Extensions
+    public static class QueryableExtensions
     {
         public static IQueryable<T> AsExtendable<T>(this IQueryable<T> query)
         {
