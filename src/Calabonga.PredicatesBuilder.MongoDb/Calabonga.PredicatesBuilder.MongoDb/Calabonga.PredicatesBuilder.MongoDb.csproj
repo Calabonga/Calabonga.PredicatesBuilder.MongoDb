@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Version>1.0.0-beta2</Version>
+        <Nullable>enable</Nullable>
+        <Authors>Calabonga</Authors>
+        <Company>Calabonga SOFT</Company>
+        <Description>Extendable function for transposing builder-functions of MongoDb.Driver to LINQ predicates</Description>
+        <Copyright>Calabonga</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>calabonga expression builder predicate c# csharp helper tools mongodb extendable</PackageTags>
+        <PackageProjectUrl>https://www.calabonga.net/</PackageProjectUrl>
+        <PackageIconUrl>logo.png</PackageIconUrl>
+        <PackageReleaseNotes>Nuget moved to NetStandard2.1</PackageReleaseNotes>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Calabonga.PredicatesBuilder.MongoDb</PackageId>
+        <PackageIconUrl>https://www.calabonga.net/images/logo.png</PackageIconUrl>
+        <PackageIcon>logo.png</PackageIcon>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Title>Calabonga.PredicatesBuilder.MongoDb</Title>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/Calabonga/Calabonga.PredicatesBuilder.MongoDb</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="favicon.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="logo.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Calabonga.PredicatesBuilder" Version="2.0.1" />
+    </ItemGroup>
+
+</Project>
