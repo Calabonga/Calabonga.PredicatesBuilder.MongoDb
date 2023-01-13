@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Version>1.0.0-beta3</Version>
+        <Version>1.0.0</Version>
         <Nullable>enable</Nullable>
         <Authors>Calabonga</Authors>
         <Company>Calabonga SOFT</Company>
@@ -13,7 +13,7 @@
         <PackageTags>calabonga expression builder predicate c# csharp helper tools mongodb extendable</PackageTags>
         <PackageProjectUrl>https://www.calabonga.net/</PackageProjectUrl>
         <PackageIconUrl>logo.png</PackageIconUrl>
-        <PackageReleaseNotes>Nuget moved to NetStandard2.1</PackageReleaseNotes>
+        <PackageReleaseNotes>First release. Nuget moved to NetStandard2.1</PackageReleaseNotes>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Calabonga.PredicatesBuilder.MongoDb</PackageId>
         <PackageIconUrl>https://www.calabonga.net/images/logo.png</PackageIconUrl>
